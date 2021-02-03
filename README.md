@@ -17,5 +17,3 @@ https://docs.google.com/spreadsheets/d/1vk5IiAlUp9T8KjpdxF-pPJxc_lJb2y65Lo2QLv14
 
 Kaggle link here:
 https://www.kaggle.com/emrejakbulut/twitter-sentiment-dataset
-
-This is in beta version.
