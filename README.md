@@ -13,7 +13,7 @@ via the google sheets API. Will be eventually set up to update hourly with cront
 
 Written in Jupyter Notebook with Python3, both Notebook and Python3 scripts can be found here.
 Sheet link here:
-https://docs.google.com/spreadsheets/d/1YLnWNTjsHNhGe65tKdrU_8VRqsAVQmPy4hbqYWpWltw/edit#gid=245284386
+https://docs.google.com/spreadsheets/d/1vk5IiAlUp9T8KjpdxF-pPJxc_lJb2y65Lo2QLv14vPY/edit#gid=245284386
 
 Kaggle link here:
 https://www.kaggle.com/emrejakbulut/twitter-sentiment-dataset
