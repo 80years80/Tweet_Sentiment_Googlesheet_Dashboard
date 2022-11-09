@@ -2,6 +2,9 @@ Project will be about the sentiment of the UN's sustainable development goals be
 To answer the question if covid has changed people's attitudes towards seeing the need for a better world. 
 https://www.un.org/sustainabledevelopment/sustainable-development-goals/
 
+
+To start using this code first use TweetDF_To_Kaggle_Dataset.ipynb
+
 Uses Twitter's API to extract tweets. Code here can upload the tweets with polarity to google sheets or kaggle, via their API's. Both are free. If trying to replicate this, I would advise getting the script to upload to the dataset to kaggle first.
 
 When uploading to kaggle it will be in a csv format. This can be helpful for producing datasets to use for later. Kaggle does go off and produce graphs on it's own as well. I am still somewhat new to kaggle, but am using it to share datasets and eventually publish results there. 
