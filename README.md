@@ -9,6 +9,19 @@ Uses Twitter's API to extract tweets. Code here can upload the tweets with polar
 
 When uploading to kaggle it will be in a csv format. This can be helpful for producing datasets to use for later. Kaggle does go off and produce graphs on it's own as well. I am still somewhat new to kaggle, but am using it to share datasets and eventually publish results there. 
 
+## TweetClaw export CSVs
+
+If you already have a TweetClaw export, convert it into the same Kaggle upload
+schema without running the live Twitter API step:
+
+```bash
+python3 tweetclaw_to_kaggle_csv.py tweetclaw-export.csv out.csv
+```
+
+The converter accepts TweetClaw CSV, JSON, JSONL, or NDJSON exports. It writes a
+`polarity,tweet` CSV, reusing a sentiment column when one exists and falling
+back to TextBlob polarity for unlabeled tweet exports.
+
 
 
 The other opt does the same but it then uploads a dataframe to Google Sheets,
